@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlt_head"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:clickable="true"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="求购大厅"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/main_hall_small"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更多>>>"
+        android:textColor="@color/main_more_tv"
+        android:layout_alignParentRight="true"
+        android:clickable="true"/>
+</RelativeLayout>

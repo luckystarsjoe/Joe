@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@drawable/back">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布求购"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用苗地"
+            android:textSize="18sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择地点"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/silver"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截止时间"
+            android:textSize="18sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择时间"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="求购产品："
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#333"
+        android:background="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/silver"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/fbqg_btn_img"
+            android:drawablePadding="10dp"
+            android:text="添加求购产品"
+            android:textColor="@color/fbqg_btn"
+            android:background="@drawable/fbqg_btn_bg"/>
+    </LinearLayout>
+</LinearLayout>
